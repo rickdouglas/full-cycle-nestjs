@@ -1,0 +1,30 @@
+GET  http://localhost:3000/events
+
+
+###
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+    "name": "teste",
+    "description": "testando",
+    "date": "2021-09-01T00:00:00.000Z",
+    "price": 100
+}
+
+###
+GET  http://localhost:3000/events/"0042b047-c37e-4d00-b503-328ea1eecd7a"
+
+###
+PATCH http://localhost:3000/events/867c4987-2d78-494a-99d7-5a145236ffaf
+Content-Type: application/json
+
+{
+    "name": "Rick and Morty kakaka",
+    "description": "testando 123",
+    "date": "2021-09-01T00:00:00.000Z",
+    "price": 100
+}
+
+###
+DELETE   http://localhost:3000/events/"0042b047-c37e-4d00-b503-328ea1eecd7a"
