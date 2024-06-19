@@ -13,10 +13,10 @@ Content-Type: application/json
 }
 
 ###
-GET  http://localhost:3000/events/"0042b047-c37e-4d00-b503-328ea1eecd7a"
+GET  http://localhost:3000/events/063b284e-f104-4185-944c-c27600e9524c
 
 ###
-PATCH http://localhost:3000/events/867c4987-2d78-494a-99d7-5a145236ffaf
+PATCH http://localhost:3000/events/063b284e-f104-4185-944c-c27600e9524c
 Content-Type: application/json
 
 {
@@ -27,4 +27,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE   http://localhost:3000/events/"0042b047-c37e-4d00-b503-328ea1eecd7a"
+DELETE   http://localhost:3000/events/063b284e-f104-4185-944c-c27600e9524c
